@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:hint="Nhập mã"
+        android:id="@+id/edit_Ma2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:inputType="text"
+        android:hint="Nhập Nhà xuất bản"
+        android:layout_below="@+id/edit_Ma2"
+        android:id="@+id/edit_NXB2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:hint="Nhập số bản phát hành"
+        android:layout_below="@+id/edit_NXB2"
+        android:id="@+id/edit_SoBanPhatHanh2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:hint="Nhập tên tác giả"
+        android:layout_below="@+id/edit_SoBanPhatHanh2"
+        android:id="@+id/edit_author"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:hint="Nhập tên sách"
+        android:layout_below="@+id/edit_author"
+        android:id="@+id/edit_nameBook"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:hint="Nhập số trang"
+        android:layout_below="@+id/edit_nameBook"
+        android:id="@+id/edit_nume_page"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:text="Lưu"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit_nume_page"
+        android:layout_width="100dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:textSize="20sp"
+        android:layout_below="@+id/btnSave2"
+        android:id="@+id/txtShow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
