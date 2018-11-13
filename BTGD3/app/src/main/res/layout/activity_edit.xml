@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BT_Edit.EditActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#2eff35"
+            android:textSize="20sp"
+            android:text="Verify +84 1649557158"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="waiting to automatically detect an SMS sent to"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="+841649557158 Wrong number"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="15dp"
+            android:background="@drawable/bg_ln"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:id="@+id/edit_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:id="@+id/edit_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:id="@+id/edit_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/edit_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:id="@+id/edit_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:id="@+id/edit_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#03ff00"
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+            <FrameLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp">
+                <Button
+                    android:visibility="invisible"
+                    android:text="confirm"
+                    android:id="@+id/btn_conFirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txt_notify"
+                    android:visibility="visible"
+                    android:text="Enter 6-digit code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:src="@drawable/recent"
+               android:layout_width="40dp"
+               android:layout_height="40dp" />
+           <TextView
+               android:layout_marginLeft="20dp"
+               android:gravity="left|center"
+               android:text="Resend SMS"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent" />
+           <TextView
+               android:gravity="center|right"
+               android:text="00:59"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+       </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:background="#9f9f9f"
+        android:layout_width="match_parent"
+        android:layout_height="2sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/call"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center"
+            android:text="Call me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center|right"
+            android:text="00:59"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

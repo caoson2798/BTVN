@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiLieuActivity">
+
+   <EditText
+       android:id="@+id/edit_ID"
+       android:hint="Nhập mã tài liệu"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/edit_publisher"
+       android:hint="Nhập nhà xuất bản"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/edit_soPhatHanh"
+       android:hint="Nhập số phát hành"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_author"
+        android:hint="Nhập tên tác giả"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/edit_bookName"
+       android:hint="Nhập tên sách"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/edit_numerPage"
+       android:hint="Nhập số trang"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:text="Lưu"
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_show"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.daiphongpc.gd3">
+    package="com.example.daiphongpc.myapplication">
 
     <application
         android:allowBackup="true"
@@ -9,21 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".qlyTaiLieu.SachAcivity"></activity>
-        <activity android:name=".qlyTaiLieu.TaiLieuActivity" />
-        <activity android:name=".setting.SettingActivity">
-
-        </activity>
-        <activity android:name=".BT_Edit.EditActivity">
+        <activity android:name=".TaiLieuActivity" />
+        <activity android:name=".SachActivity"></activity>
+        <activity android:name=".TapChiActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BaoActivity"></activity>
     </application>
 
 </manifest>
