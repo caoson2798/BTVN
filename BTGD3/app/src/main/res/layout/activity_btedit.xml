@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="6dp"
+    android:background="@drawable/bg_confrm"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting.SettingActivity">
+
+   <TextView
+       android:textColor="#ffff"
+       android:text="Confirmation"
+       android:textSize="40sp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <TextView
+
+        android:textSize="16sp"
+        android:textColor="#bac0d1"
+        android:text="please enter the code sent we sent to the number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#bac0d1"
+        android:text="+84 1649557158"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textColor="#ffff"
+            android:text="1"
+            android:gravity="center"
+            android:background="@drawable/event_press_edit"
+            android:inputType="number"
+            android:focusable="true"
+            android:maxLength="1"
+            android:id="@+id/edit_1"
+            android:layout_marginLeft="0dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:text="2"
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:background="@drawable/event_press_edit"
+            android:inputType="number"
+            android:focusable="true"
+            android:maxLength="1"
+            android:id="@+id/edit_2"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:background="@drawable/event_press_edit"
+            android:inputType="number"
+            android:focusable="true"
+            android:maxLength="1"
+            android:id="@+id/edit_3"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:text=""
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:background="@drawable/event_press_edit"
+            android:inputType="number"
+            android:focusable="true"
+            android:maxLength="1"
+            android:id="@+id/edit_4"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt"
+        android:textColor="#525b9c"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="RESEND CODE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:gravity="center"
+        android:background="@drawable/bg_btn"
+        android:orientation="horizontal"
+        android:id="@+id/btn_svae"
+        android:layout_marginTop="50dp"
+        android:text="Lưu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

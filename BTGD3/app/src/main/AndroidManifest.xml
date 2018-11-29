@@ -12,12 +12,21 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".qlyTaiLieu.SachAcivity"></activity>
+        <activity android:name=".qlyTaiLieu.SachAcivity" />
         <activity android:name=".qlyTaiLieu.TaiLieuActivity" />
-        <activity android:name=".setting.SettingActivity">
+        <activity android:name=".setting.SettingActivity" />
+        <activity android:name=".BT_Edit.EditActivity" />
+        <activity android:name=".BT_Edit.BTeditActivity" />
+        <activity android:name=".BT_Drawable.BTDrawActivity" />
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:label="@string/title_activity_list_view"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".listview.AndroidStudentActivity"></activity>
+        <activity android:name=".Recyclerview.RecyclerViewActivity">
 
         </activity>
-        <activity android:name=".BT_Edit.EditActivity">
+        <activity android:name=".Recyclerview.MultiTypeRecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
