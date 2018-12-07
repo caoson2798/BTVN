@@ -54,7 +54,9 @@ public class GoProContactAdapter extends RecyclerView.Adapter<GoProContactAdapte
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    //bắn pos về Activity
                     mListener.onClick(getPosition());
+                    mListener.onClick(arrData.get(getPosition()));
                 }
             });
 
@@ -65,6 +67,7 @@ public class GoProContactAdapter extends RecyclerView.Adapter<GoProContactAdapte
     }
     interface CallBackEvents{
         void onClick(int i);
+        void onClick(GoProContact goProContact);
     }
 
 }

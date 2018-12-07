@@ -47,6 +47,11 @@ public class GoProContactActivity extends AppCompatActivity {
                 Log.d("nameeeee", contact.getName());
                 startActivityForResult(intent,999);
             }
+
+            @Override
+            public void onClick(GoProContact goProContact) {
+
+            }
         });
 
         fbAdd.setOnClickListener(new View.OnClickListener() {

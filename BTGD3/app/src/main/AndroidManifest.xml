@@ -22,17 +22,20 @@
             android:name=".listview.ListViewActivity"
             android:label="@string/title_activity_list_view"
             android:theme="@style/AppTheme" />
-        <activity android:name=".listview.AndroidStudentActivity"></activity>
+        <activity android:name=".listview.AndroidStudentActivity" />
         <activity android:name=".Recyclerview.RecyclerViewActivity" />
         <activity android:name=".Recyclerview.MultiTypeRecyclerViewActivity" />
-        <activity android:name=".Recyclerview.contact.GoProContactActivity">
+        <activity android:name=".Recyclerview.contact.GoProContactActivity" />
+        <activity android:name=".Recyclerview.contact.AddContactActivity" />
+        <activity android:name=".sharepredferences.LoginActivity"></activity>
+        <activity android:name=".sharepredferences.WaitActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Recyclerview.contact.AddContactActivity"></activity>
+        <activity android:name=".sharepredferences.HomeActivity"></activity>
     </application>
 
 </manifest>
