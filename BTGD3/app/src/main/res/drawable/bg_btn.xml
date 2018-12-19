@@ -10,7 +10,7 @@
 
     </gradient>
     <corners
-         android:radius="5dp">
+         android:radius="15dp">
 
     </corners>
 

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.daiphongpc.gd3">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,15 +29,20 @@
         <activity android:name=".Recyclerview.MultiTypeRecyclerViewActivity" />
         <activity android:name=".Recyclerview.contact.GoProContactActivity" />
         <activity android:name=".Recyclerview.contact.AddContactActivity" />
-        <activity android:name=".sharepredferences.LoginActivity"></activity>
-        <activity android:name=".sharepredferences.WaitActivity">
+        <activity android:name=".sharepredferences.LoginActivity" />
+        <activity android:name=".sharepredferences.WaitActivity" />
+        <activity android:name=".sharepredferences.HomeActivity" />
+        <activity android:name=".json.JsonDemoActivity">
+
+        </activity>
+        <activity android:name=".json.detail.DetailActivity"></activity>
+        <activity android:name=".network.LoginWithNetWorkActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sharepredferences.HomeActivity"></activity>
     </application>
 
 </manifest>
