@@ -28,7 +28,7 @@ public class JsonDemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_json_demo);
         addControls();
-        adapter=new ProductAdapter();
+        adapter=new ProductAdapter(arrData,this);
         adapter.setOnClickItemRV(new ProductAdapter.CallBackEvents() {
             @Override
             public void onClickItem(int pos) {

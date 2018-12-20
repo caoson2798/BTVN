@@ -19,6 +19,12 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     ArrayList<Product> arrData;
     Context context;
     CallBackEvents mListener;
+
+    public ProductAdapter(ArrayList<Product> arrData, Context context) {
+        this.arrData = arrData;
+        this.context = context;
+    }
+
     @NonNull
     @Override
     public ProductViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
