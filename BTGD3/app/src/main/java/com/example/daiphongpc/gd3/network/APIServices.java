@@ -17,7 +17,7 @@ public interface APIServices {
     @GET("users/login")
     Call<LoginResultRequest> login(@Query("username") String username, @Query("password") String pasword);
 
-    @GET("cepQkfspDS")
+    @GET("api/json/get/cepQkfspDS")
     Call<DataShoes> CallDataShoes();
 
 

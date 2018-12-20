@@ -33,7 +33,7 @@ public class ShoseListActivity extends AppCompatActivity {
 
     private void prepareData() {
         Retrofit retrofit=new Retrofit.Builder()
-                .baseUrl("http://www.json-generator.com/api/json/get/")
+                .baseUrl("http://www.json-generator.com/")
                 .addConverterFactory(GsonConverterFactory.create()).build();
         retrofit.create(APIServices.class).CallDataShoes().enqueue(new Callback<DataShoes>() {
             @Override
