@@ -6,7 +6,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/cukcuk"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -32,18 +32,28 @@
         <activity android:name=".sharepredferences.LoginActivity" />
         <activity android:name=".sharepredferences.WaitActivity" />
         <activity android:name=".sharepredferences.HomeActivity" />
-        <activity android:name=".json.JsonDemoActivity"></activity>
+        <activity android:name=".json.JsonDemoActivity" />
         <activity android:name=".json.detail.DetailActivity" />
-        <activity android:name=".network.LoginWithNetWorkActivity">
-
-        </activity>
-        <activity android:name=".network.BtRetrofit.ShoseListActivity">
+        <activity android:name=".network.LoginWithNetWorkActivity" />
+        <activity android:name=".network.BtRetrofit.ShoseListActivity" />
+        <activity android:name=".network.BtRetrofit.ChiTietActivity" />
+        <activity
+            android:name=".network.ListRestaurantTypeAtivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".network.DetailListActivity"
+            android:label="Thực đơn" />
+        <activity android:name=".network.DetailDishActivity" />
+        <activity android:name=".LTNetWork.DangNhapActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LTNetWork.RegisterActivity" />
+        <activity android:name=".LTNetWork.ListProductAndroidGoProActivity" />
+        <activity android:name=".LTNetWork.DetailSPActivity"></activity>
     </application>
 
 </manifest>

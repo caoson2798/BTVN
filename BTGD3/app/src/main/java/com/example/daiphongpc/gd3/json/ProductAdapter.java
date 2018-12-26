@@ -62,11 +62,11 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             });
         }
     }
-    void setOnClickItemRV(CallBackEvents mListener){
+    public void setOnClickItemRV(CallBackEvents mListener){
         this.mListener=mListener;
     }
 
-    interface CallBackEvents{
+    public interface CallBackEvents{
         void onClickItem(int pos);
     }
 }

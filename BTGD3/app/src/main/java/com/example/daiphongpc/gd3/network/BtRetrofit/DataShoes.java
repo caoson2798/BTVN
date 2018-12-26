@@ -15,7 +15,7 @@ public class DataShoes {
     public String message;
     @SerializedName("data")
     @Expose
-    public List<ListShoes> data =null;
+    public ArrayList<ListShoes> data;
 
 
     public int getStatus() {
@@ -34,11 +34,11 @@ public class DataShoes {
         this.message = message;
     }
 
-    public List<ListShoes> getData() {
+    public ArrayList<ListShoes> getData() {
         return data;
     }
 
-    public void setData(List<ListShoes> data) {
+    public void setData(ArrayList<ListShoes> data) {
         this.data = data;
     }
 }

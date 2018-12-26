@@ -1,7 +1,9 @@
 package com.example.daiphongpc.gd3.network.BtRetrofit;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
@@ -28,7 +30,18 @@ public class ShoseListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shose_list);
         addControls();
-        prepareData();
+        addEvents();
+
+    }
+
+    private void addEvents() {
+        adapter.setOnClickItemRV(new ProductAdapter.CallBackEvents() {
+            @Override
+            public void onClickItem(int pos) {
+                Intent intent=new Intent(ShoseListActivity.this,ChiTietActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void prepareData() {
@@ -38,7 +51,17 @@ public class ShoseListActivity extends AppCompatActivity {
         retrofit.create(APIServices.class).CallDataShoes().enqueue(new Callback<DataShoes>() {
             @Override
             public void onResponse(Call<DataShoes> call, Response<DataShoes> response) {
-                Log.d("dlllll", "onResponse: "+response.body());
+                DataShoes dataShoes=response.body();
+
+                for (int i=0;i<dataShoes.getData().size();i++){
+                    Product product=new Product();
+                    product.setName(dataShoes.getData().get(i).getName());
+                    product.setImage(dataShoes.getData().get(i).getImage());
+                    product.setBasePrice(dataShoes.getData().get(i).getBasePrice());
+                    arrData.add(product);
+                }
+                adapter.notifyDataSetChanged();
+                Log.d("dlllll", "onResponse: "+response.toString());
             }
 
             @Override
@@ -50,7 +73,10 @@ public class ShoseListActivity extends AppCompatActivity {
 
     private void addControls() {
         rvShoes=findViewById(R.id.rv_shoes);
+        prepareData();
         adapter=new ProductAdapter(arrData,this);
+        rvShoes.setAdapter(adapter);
+        rvShoes.setLayoutManager(new GridLayoutManager(this,2));
 
 
     }

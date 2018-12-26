@@ -3,7 +3,7 @@
     "message": "Thành Công",
     "data": [
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/7384dd60fa4e4bba973c17972114c8dc.jpg",
@@ -14,7 +14,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 4059815002842,
+            "code": 9,
             "categoryName": "ADIDAS",
             "weight": 172,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/9ded01ba2f7743d3a18b195d937d19d4.jpg",
@@ -25,7 +25,7 @@
             "name": "Áo ADIDAS nam DM5250 size S"
         },
         {
-            "code": 4059815002866,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 188,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/c04b52575dbf4a8684d02b14339ec596.jpg",
@@ -36,7 +36,7 @@
             "name": "Quần ADIDAS nam DM5250 size L"
         },
         {
-            "code": 4055016973684,
+            "code": 91,
             "categoryName": "ADIDAS",
             "weight": 199,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/4bbe797898214f2dbdd1c16e106b443f.jpg",
@@ -47,7 +47,7 @@
             "name": "Bộ quần áo ADIDAS nam S22476 size S"
         },
         {
-            "code": 4060509777427,
+            "code": 91,
             "categoryName": "Puma",
             "weight": 216,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/b6ee182d77c94cb8a1d3202e46c8fbe1.jpg",
@@ -58,7 +58,7 @@
             "name": "Áo ADIDAS nam CY3334 size M"
         },
         {
-            "code": 4059505019648,
+            "code": 91,
             "categoryName": "Puma",
             "weight": 100,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/19c30855eb8b42258e6d58547a1e7b80.jpg",
@@ -69,7 +69,7 @@
             "name": "Giầy PUMA Suede Heart Celebrate nữ 36556102 size 37.5"
         },
         {
-            "code": 4059505052218,
+            "code": 91,
             "categoryName": "ADIDAS",
             "weight": 168,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/9b411a060f8645bba25629fd3e1e0e6f.jpg",
@@ -80,7 +80,7 @@
             "name": "Giầy PUMA Platform Sandal nữ 36547801 size 37.5"
         },
         {
-            "code": 4059505051280,
+            "code": 91,
             "categoryName": "Thượng đình",
             "weight": 190,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/4694e0ff311949a08867b1d1d5986739.jpg",
@@ -91,7 +91,7 @@
             "name": "Giầy Thượng đình Basket Heart Canvas nữ 36649503 size 38.5"
         },
         {
-            "code": 4059505051242,
+            "code": 91,
             "categoryName": "Bitit",
             "weight": 187,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/e61ddc4ae6c64f5d99a55d7b76251d5c.jpg",
@@ -102,7 +102,7 @@
             "name": "Giầy Bitit Basket Heart Canvas nữ 36649503 size 37"
         },
         {
-            "code": 4059505049461,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 1650000,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/4bbe797898214f2dbdd1c16e106b443f.jpg",
@@ -113,7 +113,7 @@
             "name": "Giầy Nike Suede Heart Celebrate nữ 36595101 size 37"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Convert",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/9ded01ba2f7743d3a18b195d937d19d4.jpg",
@@ -124,7 +124,7 @@
             "name": "Giầy Convert Suede Heart Celebrate nữ 36556101 size 37.5"
         },
         {
-            "code": 4057289631506,
+            "code": 91,
             "categoryName": "ADIDAS",
             "weight": 189,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/8f27bce9c26b46bf9ffb0f2bf6907d3a.jpg",
@@ -135,7 +135,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/7384dd60fa4e4bba973c17972114c8dc.jpg",
@@ -146,7 +146,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Puma",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/9ded01ba2f7743d3a18b195d937d19d4.jpg",
@@ -157,7 +157,7 @@
             "name": "Áo Puma thể thao "
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Adidas",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/b6ee182d77c94cb8a1d3202e46c8fbe1.jpg",
@@ -168,7 +168,7 @@
             "name": "Áo Adidas thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/4bbe797898214f2dbdd1c16e106b443f.jpg",
@@ -179,7 +179,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/b6ee182d77c94cb8a1d3202e46c8fbe1.jpg",
@@ -190,7 +190,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/8f27bce9c26b46bf9ffb0f2bf6907d3a.jpg",
@@ -201,7 +201,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/7384dd60fa4e4bba973c17972114c8dc.jpg",
@@ -212,7 +212,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/9ded01ba2f7743d3a18b195d937d19d4.jpg",
@@ -223,7 +223,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/c04b52575dbf4a8684d02b14339ec596.jpg",
@@ -234,7 +234,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/4bbe797898214f2dbdd1c16e106b443f.jpg",
@@ -245,7 +245,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/b6ee182d77c94cb8a1d3202e46c8fbe1.jpg",
@@ -256,7 +256,7 @@
             "name": "Áo ba lỗ thể thao 728740-100-S"
         },
         {
-            "code": 91202919511,
+            "code": 91,
             "categoryName": "Nike",
             "weight": 213,
             "image": "https://cdn-images.kiotviet.vn/hienkhangkiet/8f27bce9c26b46bf9ffb0f2bf6907d3a.jpg",
